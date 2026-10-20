@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0d1f54"/>
+      <stop offset="90%" stop-color="#030712"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="nebulaGlow2" cx="40%" cy="55%" r="55%">
+      <stop offset="0%" stop-color="#0066ff" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#7928ca" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonBar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad2)"/>
+  <rect width="1280" height="720" fill="url(#nebulaGlow2)"/>
+
+  <!-- Radar & Crosshair cosmic elements -->
+  <circle cx="640" cy="360" r="260" fill="none" stroke="rgba(0, 240, 255, 0.12)" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <circle cx="640" cy="360" r="160" fill="none" stroke="rgba(56, 189, 248, 0.18)" stroke-width="1.5"/>
+
+  <!-- Stars -->
+  <circle cx="160" cy="240" r="2.2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="340" cy="110" r="1.5" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="920" cy="180" r="2.5" fill="#00f0ff" opacity="0.85"/>
+  <circle cx="1060" cy="510" r="1.8" fill="#ffffff" opacity="0.7"/>
+  <circle cx="780" cy="610" r="2" fill="#7dd3fc" opacity="0.8"/>
+
+  <!-- Floating HUD elements -->
+  <rect x="220" y="160" width="840" height="400" rx="16" fill="rgba(8, 22, 54, 0.65)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="2"/>
+  <rect x="250" y="200" width="220" height="8" rx="4" fill="url(#neonBar2)"/>
+  <text x="250" y="270" font-family="'Space Grotesk', sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="2">GAMEPLAY EXPERIENCE</text>
+  <text x="250" y="315" font-family="'Inter', sans-serif" font-size="20" fill="#94a3b8">SHOWCASE 02 • REALTIME FLUIDITY &amp; MODULES</text>
+
+  <g transform="translate(640, 410)">
+    <circle r="46" fill="rgba(56, 189, 248, 0.4)" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="-12,-18 20,0 -12,18" fill="#ffffff"/>
+  </g>
+</svg>

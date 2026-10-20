@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="40%" stop-color="#0b1e4f"/>
+      <stop offset="80%" stop-color="#030b20"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="nebulaGlow1" cx="60%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#0066ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonBar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#0066ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad1)"/>
+  <rect width="1280" height="720" fill="url(#nebulaGlow1)"/>
+
+  <!-- Futuristic Grid -->
+  <g stroke="rgba(0, 240, 255, 0.08)" stroke-width="1">
+    <line x1="0" y1="120" x2="1280" y2="120"/>
+    <line x1="0" y1="240" x2="1280" y2="240"/>
+    <line x1="0" y1="360" x2="1280" y2="360"/>
+    <line x1="0" y1="480" x2="1280" y2="480"/>
+    <line x1="0" y1="600" x2="1280" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="720"/>
+    <line x1="400" y1="0" x2="400" y2="720"/>
+    <line x1="640" y1="0" x2="640" y2="720"/>
+    <line x1="880" y1="0" x2="880" y2="720"/>
+    <line x1="1080" y1="0" x2="1080" y2="720"/>
+  </g>
+
+  <!-- Stars -->
+  <circle cx="140" cy="180" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="280" cy="90" r="1.5" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="850" cy="140" r="2.5" fill="#00f0ff" opacity="0.85"/>
+  <circle cx="1120" cy="220" r="1.8" fill="#ffffff" opacity="0.7"/>
+  <circle cx="950" cy="520" r="2" fill="#7dd3fc" opacity="0.8"/>
+  <circle cx="320" cy="590" r="1.5" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Floating HUD elements -->
+  <rect x="220" y="160" width="840" height="400" rx="16" fill="rgba(10, 25, 60, 0.65)" stroke="rgba(0, 240, 255, 0.35)" stroke-width="2"/>
+  <rect x="250" y="200" width="220" height="8" rx="4" fill="url(#neonBar1)"/>
+  <text x="250" y="270" font-family="'Space Grotesk', sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="2">ORCHARD CLIENT</text>
+  <text x="250" y="315" font-family="'Inter', sans-serif" font-size="20" fill="#94a3b8">SHOWCASE 01 • OVERVIEW &amp; PERFORMANCE</text>
+
+  <g transform="translate(640, 410)">
+    <circle r="46" fill="rgba(0, 102, 255, 0.4)" stroke="#00f0ff" stroke-width="2"/>
+    <polygon points="-12,-18 20,0 -12,18" fill="#ffffff"/>
+  </g>
+</svg>
