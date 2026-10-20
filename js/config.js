@@ -8,7 +8,7 @@ window.ORCHARD_CONFIG = {
   downloadUrl: "https://www.dropbox.com/scl/fi/rzhwdy3qcr1o52ovmw0w3/orchard-1.21.11.zip?rlkey=py2rp7dk7relb12qv778hsb15&st=y1aa3mfw&dl=1",
 
   // Discord server invite link
-  discordInviteUrl: "https://discord.gg/orchard",
+  discordInviteUrl: "https://discord.gg/donutclients",
 
   // Showcase Videos (YouTube embed or MP4 video URL)
   showcases: {
